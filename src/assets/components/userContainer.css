@@ -1,0 +1,56 @@
+.user-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f9ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.user-container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.user-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #4b7bec;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.buttons button:hover:not(:disabled) {
+  background: #3867d6;
+}
+
+.buttons button:disabled {
+  background: #b0b7c3;
+  cursor: not-allowed;
+}
