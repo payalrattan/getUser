@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './assets/components/Header';
-import UserContainer from './assets/components/UserContainer';
+import JokeContainer from './assets/components/JokeContainer';
 
 const App = () => {
   return (
     <div>
-      <Header title="Users" />
-      <UserContainer />
+      <Header title="Get a joke" />
+      <JokeContainer />
     </div>
   );
 };
